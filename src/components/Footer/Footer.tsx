@@ -5,9 +5,10 @@ export const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <a href='https://github.com/psyhedeliq'>Cornel-Cristian Filip - Github</a>
-      <br />
-      {currentYear}
+      <a href='https://github.com/psyhedeliq'>
+        Cornel Cristian Filip - Github Profile
+      </a>
+      <br />- {currentYear} -
     </footer>
   );
 };
