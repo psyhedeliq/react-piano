@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --footer-height: 60px;
   --logo-height: 8rem;

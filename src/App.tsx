@@ -1,14 +1,14 @@
 import { Footer } from './components/Footer';
 import { Logo } from './components/Logo';
+import styles from './App.module.css';
 
-const App = () => {
+export const App = () => {
   return (
-    <div>
+    <div className={styles.app}>
       <Logo />
-      <main />
+      <main className={styles.content} />
       <Footer />
     </div>
   );
 };
 
-export default App;
